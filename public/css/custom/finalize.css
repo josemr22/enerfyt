@@ -1,0 +1,147 @@
+:root{
+    --rosaoscuro:        #946e89;
+    --rosadebil :        #F6C6BC;
+    --blancoderiv :      #F6F6E9;
+    --naranjafuerte:     #603;
+    --naranjadebil:      #000000;
+    --blanco:            #ffffff;
+    --amarillo:          #FFE555;
+    --negro:             #000000;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.columna2{
+    background-color: #fafafa;
+    border-left: 1.4px solid #e1e1e1;
+}
+.titulos{
+    margin-top: -2px;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+.titulos h5{
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block !important;
+    margin-bottom: -2px !important;
+    line-height: 2rem !important;
+    border-bottom: 2px solid var(--naranjadebil) !important;
+    margin-left: 16px !important;
+    font-weight: 400 !important;
+}
+.form-control{
+    font-size: 0.8rem !important;
+    border-color: #e1e1e1 !important;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    /*border-color: none !important;*/
+    outline: 0;
+    box-shadow: 0 0 0 0.07rem rgba(102, 0, 51, 0.882)!important;
+}
+.input-group-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: .6rem;
+    font-weight: 400;
+    line-height: 1;
+    color: white;
+    text-align: center;
+    white-space: nowrap;
+    background-color: var(--naranjadebil) !important;
+    border: 1px solid var(--naranjadebil) !important;
+    border-radius: .25rem;
+    width: 5.5rem !important;
+    height: 100%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: var(--naranjadebil) !important;
+    border-color: var(--naranjadebil) !important;
+    transition: .6s;
+    font-size: .9rem!important;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: var(--naranjafuerte) !important;
+    border-color: var(--naranjafuerte) !important;
+    transition: .6s;
+    font-size: .9rem!important;
+}
+.icon-header-noti2{
+    border: 0.5px solid #e1e1e1;
+    border-radius: .5rem;
+}
+/*.icon-header-noti::after {*/
+/*    content: attr(data-notify);*/
+/*    font-size: 10px;*/
+/*    font-weight: 900;*/
+/*    color: #fff;*/
+/*    line-height: 25px;*/
+/*    text-align: center;*/
+/*    position: absolute;*/
+/*    min-width: 25px;*/
+/*    height: 25px;*/
+/*    !* padding: 1px; *!*/
+/*    background-color: red;*/
+/*    border-radius: 3rem;*/
+/*    top: -3px;*/
+/*    right: 3px;*/
+/*}*/
+.detalle-datos .nombre{
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+.detalle-datos .precio{
+    font-size: 10px !important;
+}
+.subtotal{
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #e1e1e1;
+}
+.envios{
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+.subtotal .label{
+    font-size: 13px;
+}
+.subtotal .cantidad{
+    font-size: 13px;
+    font-weight: bold;
+    justify-content: right;
+}
+.envios .label{
+    font-size: 13px;
+}
+.envios .cantidad{
+    font-size: 12px;
+    font-weight: 300;
+    justify-content: right;
+}
+.total{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+.total .label{
+    font-size: 14px
+}
+.total .cantidad{
+    font-size: 16px;
+    font-weight: bold;
+}
+.boton{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

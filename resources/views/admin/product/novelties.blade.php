@@ -1,0 +1,10 @@
+@extends('layouts.admin')
+@push('css')
+    @livewireStyles
+@endpush
+@section('content')
+    @livewire('novelties')
+@endsection
+@push('scripts')
+    @livewireScripts
+@endpush
